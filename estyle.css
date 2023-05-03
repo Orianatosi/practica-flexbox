@@ -1,0 +1,44 @@
+/*.primero {
+    width: 250px;
+    background-color: aqua ;
+}
+
+
+.medio {
+    flex-grow: 2;
+    background-color: blueviolet;
+}
+
+.color {
+    background-color: cadetblue;
+}*/
+
+body {
+    display: flex;
+    background-color:gold
+    
+}
+
+.primero {
+    width: 250px;
+    height: 250px;
+    background-color: aqua ;
+    border: 4px;
+    margin: 5px;
+}
+
+.medio {
+    height: 250px;
+    background-color: aqua ;
+    border: 4px;
+    flex-grow: 2;
+    margin: 5px;
+}
+
+.ultimo {
+    width: 250px;
+    height: 250px;
+    background-color: aqua ;
+    border: 4px;
+    margin: 5px;
+}
